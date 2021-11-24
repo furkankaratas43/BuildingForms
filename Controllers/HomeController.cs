@@ -27,13 +27,13 @@ public class HomeController : Controller
 
     public IActionResult Search(string q)
     {
-        if (!String.IsNullOrWhiteSpace(q))
+        if (String.IsNullOrWhiteSpace(q))
         {
-            return View("Index", ProductRepository.Products.Where(i => i.Name.Contains(q)));
+            return View();
         }
         else
         {
-            return View();
+            return View("Index", ProductRepository.Products.Where(i => i.Name.Contains(q)));
         }
     }
 }
