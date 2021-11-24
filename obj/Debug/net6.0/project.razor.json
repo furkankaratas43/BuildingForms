@@ -16298,6 +16298,11 @@
   "RootNamespace": "BuildingForms",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\furkankaratas\\source\\repos\\BuildingForms\\Views\\Home\\Search.cshtml",
+      "TargetPath": "Views\\Home\\Search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\furkankaratas\\source\\repos\\BuildingForms\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16315,6 +16320,11 @@
     {
       "FilePath": "c:\\Users\\furkankaratas\\source\\repos\\BuildingForms\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\furkankaratas\\source\\repos\\BuildingForms\\Views\\Home\\Create.cshtml",
+      "TargetPath": "Views\\Home\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
